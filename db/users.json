@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Mursel Sen",
+    "email": "murselsen@gmail.com",
+    "password": "123456",
+    "role": "admin",
+    "personalInfo": {
+      "address": "Istanbul",
+      "phone": "+90 555 123 4567"
+    },
+    "cards": [
+      {
+        "cardNumber": "1234 5678 9012 3456",
+        "expiration Date": {
+          "month": 12,
+          "year": 2025
+        },
+        "cvc": 123
+      }
+    ],
+    "favoriteList": [],
+
+    "followList": [],
+
+    "money-accounts": [],
+    "balance": 1000,
+    "available-balance": 1000
+  }
+]

@@ -1,0 +1,96 @@
+.register-wrapper {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  justify-items: center;
+}
+
+.register-wrapper .register-form {
+  width: 600px;
+  background-color: var(--secondary-4);
+  padding: 60px 72px;
+  background: rgba(255, 255, 255, 1);
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.register-wrapper .register-form .form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register-wrapper .register-form .form-content .form-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.register-wrapper .register-form .form-info .form-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  color: var(--primary-2);
+}
+.register-wrapper .register-form .form-info .form-subTitle {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.28px;
+  color: rgba(171, 171, 171, 1);
+}
+.register-wrapper .register-form .form-content .form-groups {
+  gap: 24px;
+}
+
+.register-wrapper .register-form .form-content .form-groups.form-checkbox-group,
+.register-wrapper .register-form .form-content .form-groups.form-links {
+  justify-content: space-between;
+}
+
+.register-wrapper .register-form .form-content .form-groups .form-group {
+  gap: 8px;
+}
+
+.register-wrapper
+  .register-form
+  .form-content
+  .form-groups
+  .form-group
+  .form-group-input {
+  border: 1px solid rgba(220, 217, 217, 1);
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  outline: none;
+}
+
+.register-wrapper
+  .register-form
+  .form-content
+  .form-groups
+  .form-group
+  .form-group-input:hover {
+  border: 2px solid var(--primary-1);
+}
+.register-wrapper
+  .register-form
+  .form-content
+  .form-groups
+  .form-group
+  .form-group-input:focus {
+  border: 3px solid var(--primary-1);
+}
+
+.register-wrapper .register-form .form-content .form-groups .form-button {
+  margin-block: 20px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}

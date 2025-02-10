@@ -1,0 +1,66 @@
+:root {
+  --primary-1: rgba(250, 124, 84, 1);
+  --primary-2: rgba(77, 77, 77, 1);
+
+  --secondary-1: rgba(235, 82, 49, 1);
+  --secondary-2: rgba(87, 31, 207, 1);
+  --secondary-3: rgba(66, 187, 78, 1);
+  --secondary-4: rgba(243, 243, 247, 1);
+}
+
+body {
+  margin: 0;
+  user-select: none;
+  font-family: "Inter", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.text-primary-1 {
+  color: var(--primary-1);
+}
+a.text-primary-1:hover {
+  color: var(--primary-2);
+}
+
+.text-primary-2 {
+  color: var(--primary-2);
+}
+a.text-primary-2:hover {
+  color: var(--primary-1);
+}
+
+.btn {
+  width: fit-content;
+  padding: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: rgba(243, 243, 255, 1);
+  color: var(--secondary-1);
+  border: 1px solid var(--secondary-1);
+}
+
+.btn-light {
+  background-color: var(--primary-2);
+  color: var(--secondary-4);
+}
+.btn-primary {
+  background-color: var(--primary-1);
+  color: var(--secondary-4);
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}

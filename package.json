@@ -1,0 +1,21 @@
+{
+  "name": "my-book-shelf",
+  "version": "0.0.1",
+  "description": "It is a project for the sale of Global Books",
+  "keywords": [
+    "myBook"
+  ],
+  "license": "ISC",
+  "author": "murselsen",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

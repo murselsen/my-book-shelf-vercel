@@ -1,0 +1,33 @@
+<form class="nav-tab searchTab" action="/search" method="get">
+  <select name="searchType" id="searchType">
+    <option value="all">Tümü</option>
+    <option value="title">Başlık</option>
+    <option value="author">Yazar</option>
+    <option value="text">Metin</option>
+    <option value="subjects">Konular</option>
+  </select>
+  <input type="text" name="searchValue" id="searchInput" placeholder="Search" />
+  <button class="searchBtn"><i class="icon fa fa-search"></i></button>
+</form>
+<form class="nav-tab" action="/search" method="get">
+  <i class="icon fa fa-globe"></i>
+  <select name="searchLanguage" id="searchLanguage">
+    <option value="">Lang</option>
+  </select>
+</form>
+<div class="nav-tab dateTab">
+  <div class="nav-tab-item">
+    <i class="icon far fa-clock"></i>
+    <span id="time"> 09:00 AM </span>
+  </div>
+  <div class="nav-tab-item">
+    <i class="icon fa fa-calendar-days"></i>
+    <span id="date">4-Mar-2023</span>
+  </div>
+</div>
+<div class="nav-tab userTab">
+  <div class="nav-tab-item">
+    <img src="public/images/user.jpg" alt="anonim" width="30px" />
+    <span id="accountName">Anonim</span>
+  </div>
+</div>

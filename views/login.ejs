@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Book Shelf</title>
+    <link
+      rel="shortcut icon"
+      href="public/images/favicon-2.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/css/reset.css" />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <link rel="stylesheet" href="public/css/login.module.css" />
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <form
+        action="/login"
+        method="post"
+        class="login-form d-flex-column"
+        id="login-form"
+      >
+        <div class="form-logo">
+          <img
+            src="public/images/app-logo-2.png"
+            alt="Form Logo"
+            width="150px"
+          />
+        </div>
+        <div class="form-content">
+          <div class="form-info d-flex-column">
+            <h5 class="form-title">Hoş Geldiniz!</h5>
+            <p class="form-subTitle">
+              Dijital Kütüphanenize devam etmek için oturum açın
+            </p>
+          </div>
+          <div class="form-groups d-flex-column">
+            <div class="form-group d-flex-column">
+              <label for="formEmail" class="form-group-label">Email</label>
+              <input
+                class="form-group-input"
+                type="email"
+                name="email"
+                id="formEmail"
+                placeholder="username@collegename.ac.in"
+              />
+            </div>
+            <div class="form-group d-flex-column">
+              <label for="formPass" class="form-group-label">Parola</label>
+              <input
+                class="form-group-input"
+                type="password"
+                name="password"
+                id="formPass"
+                min="8"
+                value="123456789"
+                placeholder="******"
+              />
+            </div>
+            <div class="form-groups d-flex-row form-checkbox-group">
+              <div class="form-group d-flex-row">
+                <label for="formRemember">
+                  <input
+                    type="checkbox"
+                    name="checkbox"
+                    id="formRemember"
+                    class="form-group-checkout"
+                  />
+                  Beni Hatırla
+                </label>
+              </div>
+              <div class="form-group d-flex-row">
+                <a href="/forgotPassword" class="text-primary-1"
+                  >Şifremi Unuttum ?</a
+                >
+              </div>
+            </div>
+
+            <div class="form-groups">
+              <input
+                type="submit"
+                class="btn btn-primary form-button"
+                value="Login"
+              />
+            </div>
+
+            <div class="form-groups d-flex-row form-links">
+              <div class="form-group d-flex-row">
+                <p class="text-primary-2">
+                  Yeni Kullanıcı mı?
+                  <a href="/register" class="text-primary-2">Kayıt Olun</a>
+                </p>
+              </div>
+              <div class="form-group d-flex-row">
+                <a href="/home" class="text-primary-2">Misafir olarak kullan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="public/js/login.js"></script>
+  </body>
+</html>

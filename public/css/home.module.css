@@ -1,0 +1,19 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 48px 35px 38px 35px;
+}
+.app-wrapper {
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+}
+.app-sidebar {
+  width: 310px;
+  height: 100vh;
+  padding: 38px 66px;
+  border: 1px solid orangered;
+}
